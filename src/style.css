@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.app{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background: #F1F6F9;
+}
+.textarea{
+  width: 65%;
+  min-height: 491px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px
+}
+.textarea span{
+  padding: 0 5px
+}
+.left-panel{
+  width: 30%
+}
+.weather-item{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 10px 20px;
+  background: #fff;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.weather-item b{
+  font-size: 16px
+}
+.weather-item-active{
+  background: #ccc;
+}
+
+.day{
+  background: yellow;
+}
+.night{
+  background: #000;
+  color: #fff;
+}
