@@ -15,7 +15,8 @@ body{
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   background: #fff;
   margin: 10px 0;
-  padding: 10px
+  padding: 10px;
+  -ms-user-select: text;
 }
 .textarea span{
   padding: 0 5px

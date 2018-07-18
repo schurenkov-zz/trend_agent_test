@@ -3,7 +3,9 @@ import React from 'react';
 export default (props) => {
   return <div
             className='textarea'
-            id='test'
+            id='textarea'
             contentEditable="true"
-            onClick={e=> props.handlerClick()}>Какой-то текст...</div>
+            onBlur={e => props.handlerBlur()}
+            onFocus={e=> props.handlerFocus()}
+            >Какой-то текст...</div>
 }
