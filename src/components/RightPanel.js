@@ -1,11 +1,20 @@
 import React from 'react';
 
-export default (props) => {
-  return <div
-            className='textarea'
-            id='textarea'
-            contentEditable="true"
-            onBlur={e => props.handlerBlur()}
-            onFocus={e=> props.handlerFocus()}
-            >Какой-то текст...</div>
+class RightPanel extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  render(){
+    return <div
+              className='textarea'
+              id='textarea'
+              contentEditable="true"
+              onBlur={e => this.props.handlerBlur()}
+              onFocus={e=> this.props.handlerFocus()}
+              >Какой-то текст...</div>
+  }
 }
+
+
+export default RightPanel;
